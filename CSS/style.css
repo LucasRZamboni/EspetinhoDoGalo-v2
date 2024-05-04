@@ -35,3 +35,7 @@ body {
   background: rgb(235, 131, 62);
   color: rgb(20, 20, 20);
 }
+iframe{
+  width: 100%;
+  height: fit-content;
+}

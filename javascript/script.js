@@ -11,3 +11,15 @@ $(document).ready(function () {
     });
     
 });
+
+window.addEventListener('DOMContentLoaded', () => {
+    const iframe = document.getElementById('cardsFrame');
+  
+    const resizeIframe = () => {
+      iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    };
+  
+    iframe.addEventListener('load', resizeIframe);
+    window.addEventListener('resize', resizeIframe);
+  });
+  

@@ -5,6 +5,7 @@
         width: 100%;
         height: 80px;
         z-index: 1;
+        top: 0;
     }
     header #navbar{
         align-items: center;
@@ -12,13 +13,13 @@
         flex-direction: column;
     }
     header #navbar .logo{
-        position: fixed;
+        position: absolute;
         top: 10px;
         left: 10px;
     }
     header #navbar .btn-default#phone-button{
         display: flex;
-        position: fixed;
+        position: absolute;
         right: 20px;
         top: 20px;
         font-size: 17px;
@@ -51,5 +52,8 @@
     
     header #navbar .btn-default.active{
         display: block;
+    }
+    #content{
+        margin-top: 100px;
     }
 }
