@@ -31,7 +31,7 @@
     border-radius: 20px;
     margin: 30px;
     background: rgb(177, 157, 145);
-    background-image: url("/images/fire.png");
+    background-image: url("images/fire.png");
     background-position: 50% 120%;
     background-repeat: no-repeat;
     background-size: cover;
