@@ -7,6 +7,7 @@
     display:  flex;
     align-items: center;
     justify-content: center;
+    padding: 0 100px;
 }
 .container-cards{
     width: 100%;
@@ -46,7 +47,6 @@
     flex-direction: column;
     padding: 10px;
     position: relative;
-    
 }
 .body-card .container-image{
     width: 190px;
@@ -71,10 +71,11 @@
     height: 20%;
     font-size: 13px;
     padding: 0 10px;
-    background: rgba(255, 255, 255, 0.89);
+    background: rgb(131, 13, 13);
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 .footer-card{
     width: 100%;
@@ -87,7 +88,7 @@
     position: absolute;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    background: rgba(255, 255, 255, 0.89);
+    background: rgba(255, 255, 255, 0.23);
     border-top: 1px solid black;
 }
 .footer-card span{
@@ -101,6 +102,9 @@
     border-radius: 5px;
 }
 @media screen and (max-width: 699px) {
+    .container{
+        padding: 20px 0 0 0;
+    }
     .container-cards {
         display: flex;
         flex-direction: row;
