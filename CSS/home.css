@@ -15,7 +15,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-top: 8%;
+  margin-top: 4%;
 }
 #contents .title {
   font-size: 4rem;
