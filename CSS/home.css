@@ -1,12 +1,17 @@
 section {
   display: flex;
   justify-content: center;
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 50px);
   width: 100%;
-  margin-top: 4%;
+  margin-top: 7%;
+}
+#home{
+  width: 100%;
+  gap: 50px;
+  height: 100%;
 }
 #contents {
-  width: 45%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -20,10 +25,60 @@ section {
     color: rgb(214, 87, 2);
 }
 #contents .description{
-    font-size: 1.2rem;
-    text-align: justify;
+    font-size: 2rem;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    align-self: center;
+    color: rgb(200, 198, 198);
 }
 .contents-buttons{
 display: flex;
 gap: 25px;
+width: 100%;
+align-items: center;
+justify-content: center;
+}
+#banner{
+  width: 40%;
+}
+#banner img{
+  width: 100%;
+  border-radius: 10%;
+  box-shadow: 0px 0px 20px rgb(187, 19, 19);
+  border: 2px solid rgb(192, 32, 32);
+  max-width: 770px;
+  min-width: 350px;
+}
+@media screen and (max-width: 700px) {
+  #contents .description{
+    font-size: 1.5rem;
+}
+#contents .title{
+  font-size: 2rem;
+}
+}
+@media screen and (max-width: 1200px) {
+  #home{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  #contents{
+    width: 90%;
+    margin-top: 0;
+  }
+  #contents .title{
+    text-align: center;
+    font-size: 3.5rem;
+    width: 100%;
+  }
+  #banner{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  
 }

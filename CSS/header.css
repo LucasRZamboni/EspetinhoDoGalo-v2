@@ -1,4 +1,10 @@
-
+header{
+  position:fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(105, 29, 29);
+  z-index: 100;
+}
 header #navbar {
   width: 100%;
   display: flex;
@@ -9,6 +15,7 @@ header #navbar {
 
 header #navbar .logo {
   width: 70px;
+  border-radius: 50%;
 }
 header #navbar #nav-list {
   display: flex;
