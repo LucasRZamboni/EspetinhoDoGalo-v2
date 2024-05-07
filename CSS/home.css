@@ -3,9 +3,9 @@ section {
   justify-content: center;
   min-height: calc(100vh - 50px);
   width: 100%;
-  margin-top: 7%;
+  margin-top: 120px;
 }
-#home{
+#home {
   width: 100%;
   gap: 50px;
   height: 100%;
@@ -17,32 +17,32 @@ section {
   gap: 30px;
   margin-top: 8%;
 }
-#contents .title{
-    font-size: 4rem;
-    color: white;
+#contents .title {
+  font-size: 4rem;
+  color: white;
 }
-#contents .title span{
-    color: rgb(214, 87, 2);
+#contents .title span {
+  color: rgb(214, 87, 2);
 }
-#contents .description{
-    font-size: 2rem;
-    text-align: center;
-    width: 80%;
-    display: flex;
-    align-self: center;
-    color: rgb(200, 198, 198);
+#contents .description {
+  font-size: 2rem;
+  text-align: center;
+  width: 80%;
+  display: flex;
+  align-self: center;
+  color: rgb(200, 198, 198);
 }
-.contents-buttons{
-display: flex;
-gap: 25px;
-width: 100%;
-align-items: center;
-justify-content: center;
+.contents-buttons {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
-#banner{
+#banner {
   width: 40%;
 }
-#banner img{
+#banner img {
   width: 100%;
   border-radius: 10%;
   box-shadow: 0px 0px 20px rgb(187, 19, 19);
@@ -51,34 +51,33 @@ justify-content: center;
   min-width: 350px;
 }
 @media screen and (max-width: 700px) {
-  #contents .description{
-    font-size: 1.5rem;
-}
-#contents .title{
-  font-size: 2rem;
-}
+  #contents .description {
+    font-size: 1.3rem;
+  }
+  #contents .title {
+    font-size: 2.4rem!important;
+  }
 }
 @media screen and (max-width: 1200px) {
-  #home{
+  #home {
     flex-direction: column;
     width: 100%;
     align-items: center;
     justify-content: center;
   }
-  #contents{
+  #contents {
     width: 90%;
     margin-top: 0;
   }
-  #contents .title{
+  #contents .title {
     text-align: center;
     font-size: 3.5rem;
     width: 100%;
   }
-  #banner{
+  #banner {
     display: flex;
     width: 90%;
     align-items: center;
     justify-content: center;
   }
-  
 }
