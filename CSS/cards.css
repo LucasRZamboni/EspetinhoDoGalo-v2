@@ -37,6 +37,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    padding-top: 20px;
 }
 .body-card{
     width: 100%;
@@ -108,7 +109,7 @@
         height: 380px; /* Removido o valor fixo de altura */
         flex-wrap: nowrap;
         justify-content: flex-start; /* Alinhado à esquerda */
-        padding: 0 30px; /* Adicionado um espaçamento horizontal */
+        padding: 10px 30px; /* Adicionado um espaçamento horizontal */
       }
 }
 @media screen and (max-width: 900px) {
